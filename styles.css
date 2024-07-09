@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: rgb(5, 177, 28);
+    color: rgb(56, 56, 56);
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Estilos para la lista de barrios */
+#barrios-list {
+    list-style: none;
+    padding: 0;
+}
+
+#barrios-list li {
+    margin-bottom: 10px;
+}
+
+#barrios-list li a {
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+}
+
+#barrios-list li a:hover {
+    color: rgb(0, 171, 214);
+}
+
+/* Estilos para la página de detalle del barrio */
+#barrio-info {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
